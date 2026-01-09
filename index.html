@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>台形の面積</title>
+</head>
+<body>
+  <form method="post" action="API/index.php">
+    <label>上底の長さ：</label>
+    <input type="number" name="topBase" min="1" required
+><br>
+    <label>下底の長さ：</label>
+    <input type="number" name="bottomBase" min="1" required
+><br>
+    <label>高さ：</label>
+    <input type="number" name="height" min="1" required
+><br>
+    <label>面積の単位:</label>
+    <select name="areaUnit">
+  <option value="㎡">㎡</option>
+  <option value="cm²">cm²</option>
+  <option value="mm²">mm²</option>
+</select>
+<button type="submit">送信</button>
+  </form>
+ </body>
+</html>
